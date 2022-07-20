@@ -1,7 +1,5 @@
 //leetcode easy
 
-const nums = [1, 2, 3, 4];
-
 var containsDuplicate = function (nums) {
   //the Set method creates a set of data with unique values
   const noDupes = new Set(nums);
@@ -14,5 +12,7 @@ var containsDuplicate = function (nums) {
     return true;
   }
 };
+
+const nums = [1, 2, 3, 4];
 
 containsDuplicate(nums);
