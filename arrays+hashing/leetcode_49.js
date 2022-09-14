@@ -1,4 +1,10 @@
-//leetcode medium
+/* 
+leetcode medium
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+https://leetcode.com/problems/group-anagrams/ 
+*/
 
 var groupAnagrams = function (strs) {
   //create a new array for the final results

@@ -1,13 +1,15 @@
 /* 
 leetcode medium
 
- Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order. 
+Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order. 
 
 - loop through the array
 - find the element that appears the most in the array, according to the k value
 k is the number of frequent elements for each input
 so, for nums = [1,1,1,2,2,3], k = 2, we are looking for the TWO most frequent elements in the array
 in this case it would output [1, 2] because those are the 2 values appear that the most 
+
+https://leetcode.com/problems/top-k-frequent-elements/
 */
 
 var topKFrequent = function (nums, k) {
