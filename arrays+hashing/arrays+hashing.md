@@ -11,3 +11,11 @@
 - An array is a continuous block of data
 - two most common operations for sata structures are **Reading** and **Writing** the data
 - static arrays have fixed sizes
+
+
+## Dynamic Arrays
+- this is the default in Python and JS
+- there is a dynamic "pointer" which identifies the end of the array
+
+## Stacks
+- can be implemented using dynamic arrays
